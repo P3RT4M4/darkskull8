@@ -83,7 +83,7 @@ echo $cy "[10]"$me" EXIT"
 echo "=================================================="
 echo
 echo
-echo $cy"┌==="$bi"[ THORONE CYBER TEAM  ]"
+echo $cy"┌==="$bi"[ Masukan Pilihan Anda  ]"
 echo $cy"¦"
 read -p">>>" pil;
 
