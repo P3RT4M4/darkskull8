@@ -52,34 +52,38 @@ echo $me"       ¶¶¶¶                                     ¶¶¶¶"
 echo
 echo
 echo $cy "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-echo $i  "AUTHOR   : DIMAS RAMADANI"
-echo $i  "WA       : 087888336682"
-echo $i  "YOUTUBE  : ANGRY REACT"
-echo $i  "TOOLS    : INSTALLER (7 TOOLS)"
+echo $i  "AUTHOR    : DIMAS RAMADANI"
+echo $i  "WA        : 087888336682"
+echo $i  "YOUTUBE   : ANGRY REACT"
+echo $i  "GITHUB    : https://github.com/P3RT4M4"
 echo $cy "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo
 echo
-echo "###DAFTAR TOOLS MILIK HACKBAE###"
+echo ">>DAFTAR TOOLS MILIK MR.D3LT4<<"
 echo 
 echo $cy "[1]"$bi" Brute Force Facebook"
 echo "=================================================="
-echo $cy "[2]"$i" Banguni Sahur"
+echo $cy "[2]"$i" Kerjain Temen"
 echo "=================================================="
 echo $cy "[3]"$me" Skull Project"
 echo "=================================================="
 echo $cy "[4]"$ku" Termux Alice (Khusus Jones)"
 echo "=================================================="
-echo $cy "[5]"$pur" Mata mata"
+echo $cy "[5]"$pur" Mata Mata"
 echo "=================================================="
 echo $cy "[6]"$pu" Trap Project"
 echo "=================================================="
 echo $cy "[7]"$cy" Sadap Camera"
 echo "=================================================="
-echo $cy "[8]"$me" EXIT"
+echo $cy "[8]"$cy" Dark Facebook V1,6"
+echo "=================================================="
+echo $cy "[9]"$cy" DDOS ATTACK ,hammer"
+echo "=================================================="
+echo $cy "[10]"$me" EXIT"
 echo "=================================================="
 echo
 echo
-echo $cy"┌==="$bi"[ MRD3LT4 - GT ]"
+echo $cy"┌==="$bi"[ THORONE CYBER TEAM  ]"
 echo $cy"¦"
 read -p">>>" pil;
 
@@ -143,6 +147,22 @@ bash saycheese.sh
 fi
 
 if [ $pil = 8 ]
+then
+clear
+git clone https://github.com/pashayogi/SETAN
+cd SETAN
+python2 SETAN.py
+fi
+
+if [ $pil = 9 ]
+then
+clear
+git clone https://github.com/cyweb/hammer
+cd hammer
+python hammer.py
+fi
+
+if [ $pil = 10 ]
 then
 clear
 figlet -f slant "E X I T"|lolcat
