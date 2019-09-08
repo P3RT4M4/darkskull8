@@ -79,7 +79,11 @@ echo $cy "[8]"$cy" Dark Facebook V1,6"
 echo "=================================================="
 echo $cy "[9]"$cy" DDOS ATTACK ,hammer"
 echo "=================================================="
-echo $cy "[10]"$me" EXIT"
+echo $cy "[10]"$cy" HACK CCTV ,ipcs"
+echo "=================================================="
+echo $cy "[11]"$cy" Sadap WA (Khusus Root)"
+echo "=================================================="
+echo $cy "[12]"$me" EXIT"
 echo "=================================================="
 echo
 echo
@@ -163,6 +167,25 @@ python hammer.py
 fi
 
 if [ $pil = 10 ]
+then
+clear
+pkg install python
+pkg install git
+git clone https://github.com/kancotdiq/ipcs
+cd ipcs
+python2 scan.py
+fi
+
+if [ $pil = 11 ]
+then
+clear
+pkg install curl
+git clone https://github.com/AndriGanz/whatshack
+cd whatshack
+sh whatshack.sh
+fi
+
+if [ $pil = 12 ]
 then
 clear
 figlet -f slant "E X I T"|lolcat
